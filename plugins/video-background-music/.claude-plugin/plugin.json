@@ -1,7 +1,7 @@
 {
   "name": "video-background-music",
   "description": "Research, license-check, and add background music to videos while keeping dialogue clear.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Video Editing Skills Contributors"
   },
