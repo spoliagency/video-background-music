@@ -9,7 +9,7 @@
       "name": "video-background-music",
       "source": "./plugins/video-background-music",
       "description": "Research licensed music and mix it beneath video dialogue.",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "author": {
         "name": "Video Editing Skills Contributors"
       },

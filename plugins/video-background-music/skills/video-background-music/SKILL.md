@@ -7,15 +7,22 @@ description: "Research, license-check, and add background music to videos while 
 
 Find an appropriate track and create a separate music-enhanced version of the user's video.
 
-## Delivery
+## Source and delivery
 
-Deliver completed copies to a user-specified folder. If no folder is specified, use an `outputs` folder next to the working files. Keep intermediate renders separate and do not overwrite an existing delivery file unless the user asks.
+At the beginning of every edit, resolve both file locations with the user before rendering:
+
+1. Confirm the original video. Ask where it is and its name. If a likely source is already visible, ask for a brief confirmation rather than guessing.
+2. Ask where the finished copy should be saved: Downloads, or a separate folder for edited videos.
+3. If the user chooses a separate folder, create a clear folder such as `Videos Editados` in their standard Videos location (or the localized equivalent), then state its path. Respect another location when the user names one.
+4. Use a separately named output, keep intermediate renders separate, and never overwrite the original or an existing delivery file unless the user asks.
+
+Do not fall back to a generic `outputs` folder or a prior per-user delivery location without asking.
 
 ## First use and local video tool
 
 When a user invokes this skill, begin with a short, approachable preflight:
 
-1. Explain that you will make a separate music-enhanced copy and confirm the source video. Use the natural music conversation below instead of presenting a questionnaire.
+1. After confirming the original and delivery location, explain that you will make a separate music-enhanced copy. Use the natural music conversation below instead of presenting a questionnaire.
 2. Check whether FFmpeg or another compatible local video renderer is available, without changing their system.
 3. If a renderer is ready, say so briefly and continue with the music choice or edit.
 4. If no renderer is available, explain in plain language that this skill plans and verifies the edit, while the local renderer produces the new video file. Identify the operating system and ask directly whether you may download and install FFmpeg or a compatible local renderer for that computer.

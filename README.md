@@ -17,6 +17,10 @@ It guides an agent through current license checks, music selection, subtle dialo
 - A local video and audio tool such as FFmpeg.
 - An internet connection when researching current licensing and official music sources.
 
+## File locations
+
+Before editing, the skill confirms which file is the original and asks where to place the finished copy: Downloads or a separate `Videos Editados` folder. It creates that folder when the student chooses it and reports the final path without overwriting the original.
+
 ## What happens after installation
 
 The student does not need to understand FFmpeg before asking for help. They can invoke the skill and write a normal request, for example:
