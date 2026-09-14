@@ -35,7 +35,7 @@ The skill will explain the next step, check whether a local video renderer is re
 
 ## Guided conversation
 
-If the student starts with “I want to add music,” the skill asks only the missing details, one question at a time: video topic and audience, desired mood, optional style or YouTube reference, where music should play, and publication/licensing needs. It then summarizes the brief for confirmation, researches options when needed, and edits only after the student chooses.
+If the student starts with “I want to add music,” the skill begins naturally with the desired feeling: clean and professional, energetic, calm, or futuristic. It then asks only what is still needed, such as whether music should play throughout or only between speaking segments, and whether the student wants a shortlist or already has a track. License checks happen in the background.
 
 ## Install in Claude Code
 
