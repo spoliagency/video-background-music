@@ -33,6 +33,10 @@ Find three licensed tracks with a clean, futuristic automation style that fit wh
 
 The skill will explain the next step, check whether a local video renderer is ready, and proceed if it is. If it is not ready, it identifies the student's operating system and asks whether it may download and install FFmpeg or a compatible renderer from an official source. After approval, it verifies the tool and continues from the same request.
 
+## Guided conversation
+
+If the student starts with “I want to add music,” the skill asks only the missing details, one question at a time: video topic and audience, desired mood, optional style or YouTube reference, where music should play, and publication/licensing needs. It then summarizes the brief for confirmation, researches options when needed, and edits only after the student chooses.
+
 ## Install in Claude Code
 
 After this repository is published, run these commands in Claude Code:
