@@ -1,5 +1,22 @@
 # Video Background Music
 
+## Português
+
+Skill gratuita para pesquisar músicas licenciadas e adicioná-las a vídeos sem prejudicar a fala. Ela conversa sobre o clima da música, confirma o vídeo original e a pasta de destino, e mostra um preview com volume e transições para aprovação antes da entrega final.
+
+### Instalação no Claude Code
+
+```text
+/plugin marketplace add spoliagency/video-background-music
+/plugin install video-background-music@video-background-music
+```
+
+Depois, use `/video-background-music:video-background-music` e diga que quer adicionar música. A skill conduz a escolha naturalmente.
+
+---
+
+## English
+
 Free, reusable instructions for researching appropriate licensed music and adding it to a video while keeping spoken audio easy to follow.
 
 It guides an agent through current license checks, music selection, subtle dialogue-safe mixing, timing, fades, and verification of the final render.
@@ -11,6 +28,7 @@ It guides an agent through current license checks, music selection, subtle dialo
 - Current license, attribution, and Content ID checks from official music sources.
 - Low-volume mixing, short fades, and a timeline that respects explanation-first speaking segments.
 - Separate outputs and checks for duration, streams, speech, music, and the ending.
+- A temporary audio-and-video preview for approval before the final delivery.
 
 ## Requirements
 

@@ -59,4 +59,10 @@ Offer two or three fitting choices when the user is unsure. Handle license and C
 4. Loop or trim the track cleanly when needed, without extending the video or replacing the spoken audio.
 5. Verify the final duration and streams, then sample the opening, a speech segment, a music segment, and the ending.
 
+## Preview and approval
+
+Before creating the final delivery file, create a temporary preview with representative moments: a music entrance, a direct-to-camera or speech segment, a demonstration or transition with music, and the ending when relevant. Let the user hear the intended volume and fades.
+
+Show the preview and ask whether they approve the music choice, timing, and volume before final delivery. Apply requested adjustments, make another preview when the mix changes materially, and create the final file only after approval. An explicit request to skip preview counts as approval. Keep previews out of the chosen delivery folder unless the user asks to retain them.
+
 Do not assume a track is royalty-free indefinitely; verify the current source page before a new use. Ask for a decision only when the user has not selected music or their desired music timing materially changes the edit.
