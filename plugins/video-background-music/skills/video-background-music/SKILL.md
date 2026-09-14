@@ -24,9 +24,12 @@ When a user invokes this skill, begin with a short, approachable preflight:
 
 ## Choosing music
 
-- Match the genre, energy, and pacing to the video. For software, dashboard, and automation tutorials, favor clean instrumental corporate or light electronic tracks without vocals.
-- When the user asks for recommendations, research current official source pages and offer a small, useful shortlist with direct listening or download links.
-- Check and disclose current license, attribution, and Content ID information. Use the official source for downloads and keep the source URL in the delivery note.
+- Turn the user's subject, audience, mood, energy, pacing, and channel references into a concise music brief. For software, dashboard, and automation tutorials, favor clean instrumental corporate or light electronic tracks without vocals.
+- Support searches by theme or use case, such as technology, automation, sales, productivity, education, vlog, motivational, elegant, calm, futuristic, or energetic.
+- Treat a creator, channel, or existing song as a style reference rather than a request to copy it.
+- When the user asks for current trends or music commonly used on YouTube, research current, reliable public signals. Treat popularity as creative context only: it is not evidence that a song is reusable or safe from Content ID claims.
+- When the user asks for recommendations, offer a small, useful shortlist with direct listening or download links. For each option, state the mood/style, why it fits the video, the intended timeline use, the source, and current license, attribution, and Content ID information.
+- Prefer tracks with clear, compatible licensing. Use the official source for downloads and keep the source URL in the delivery note.
 - Let the user choose the track unless they have already specified one.
 
 ## Editing approach

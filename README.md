@@ -7,6 +7,7 @@ It guides an agent through current license checks, music selection, subtle dialo
 ## What it covers
 
 - Instrumental music selection for software tutorials, demonstrations, talking-head videos, and business content.
+- Research by topic, mood, energy, use case, creator/channel reference, or current YouTube trend.
 - Current license, attribution, and Content ID checks from official music sources.
 - Low-volume mixing, short fades, and a timeline that respects explanation-first speaking segments.
 - Separate outputs and checks for duration, streams, speech, music, and the ending.
@@ -22,6 +23,12 @@ The student does not need to understand FFmpeg before asking for help. They can 
 
 ```text
 Add subtle instrumental background music to this tutorial. Keep it very low and remove it while I speak directly to the camera.
+```
+
+They can also request a themed or trend-informed shortlist, for example:
+
+```text
+Find three licensed tracks with a clean, futuristic automation style that fit what is currently popular in YouTube productivity videos.
 ```
 
 The skill will explain the next step, check whether a local video renderer is ready, and proceed if it is. If it is not ready, it identifies the student's operating system and asks whether it may download and install FFmpeg or a compatible renderer from an official source. After approval, it verifies the tool and continues from the same request.
