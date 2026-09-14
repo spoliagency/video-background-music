@@ -11,6 +11,16 @@ Find an appropriate track and create a separate music-enhanced version of the us
 
 Deliver completed copies to a user-specified folder. If no folder is specified, use an `outputs` folder next to the working files. Keep intermediate renders separate and do not overwrite an existing delivery file unless the user asks.
 
+## First use and local video tool
+
+When a user invokes this skill, begin with a short, approachable preflight:
+
+1. Explain that you will make a separate music-enhanced copy and ask them to identify the source video, whether they already chose a track, and when music should be audible.
+2. Check whether FFmpeg or another compatible local video renderer is available, without changing their system.
+3. If a renderer is ready, say so briefly and continue with the music choice or edit.
+4. If no renderer is available, explain in plain language that this skill plans and verifies the edit, while the local renderer produces the new video file. Offer platform-appropriate installation guidance or a compatible existing tool; do not install software without the user's explicit approval.
+5. Keep the same conversation open after the tool is ready. The user should not have to repeat the request or relocate their media.
+
 ## Choosing music
 
 - Match the genre, energy, and pacing to the video. For software, dashboard, and automation tutorials, favor clean instrumental corporate or light electronic tracks without vocals.

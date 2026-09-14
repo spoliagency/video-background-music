@@ -16,6 +16,16 @@ It guides an agent through current license checks, music selection, subtle dialo
 - A local video and audio tool such as FFmpeg.
 - An internet connection when researching current licensing and official music sources.
 
+## What happens after installation
+
+The student does not need to understand FFmpeg before asking for help. They can invoke the skill and write a normal request, for example:
+
+```text
+Add subtle instrumental background music to this tutorial. Keep it very low and remove it while I speak directly to the camera.
+```
+
+The skill will explain the next step, check whether a local video renderer is ready, and proceed if it is. If it is not ready, it explains why a renderer is needed and offers installation guidance for the student's operating system; it never installs software without their approval. Once the renderer is available, the conversation continues from the same request.
+
 ## Install in Claude Code
 
 After this repository is published, run these commands in Claude Code:
